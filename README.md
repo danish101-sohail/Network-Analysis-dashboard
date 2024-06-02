@@ -1,9 +1,23 @@
-# React + Vite
+# Network Alerts Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive and visually appealing dashboard built with React and Vite, designed to display network alert data using multiple interactive graphs.
 
-Currently, two official plugins are available:
+![Dashboard Preview](https://github.com/danish101-sohail/Network-Analysis-dashboard/blob/main/public/nta.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# Network-Analysis-dashboard" 
+## Demo
+
+You can check out a live demo of the project [here](https://network-analysis-dashboard.vercel.app/).
+
+## Features
+
+- **Dark Theme**: A visually appealing dark theme with a green gradient.
+- **Responsive Design**: Ensures compatibility across different devices.
+- **Interactive Graphs**: Uses Plotly for interactive and dynamic visualizations.
+- **Data Fetching**: Fetches and processes network alert data from a JSON file.
+
+
+## Technologies Used
+- **React**: For developing the user interface.
+- **Vite**: For development and build tooling.
+- **Plotly**: For generating interactive graphs.
+- **Axios**: For retrieving data from the JSON file.
